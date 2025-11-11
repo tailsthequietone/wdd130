@@ -1,0 +1,70 @@
+/* Add your CSS here to style your halloween page */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nanum+Brush+Script&display=swap');
+
+body {
+    margin: 0 auto;
+    background-color: #f4d221;
+}
+
+#wrapper {
+    max-width: 1000px;
+    background-color: #f6671f;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+    font-family: "Creepster", system-ui;
+    font-size: 25px;
+    color: #780606;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    color: #780606;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    color: #780606;
+}
+
+img{
+    display: flex;
+    border-radius: 50%;
+    margin: 20px auto;
+    grid-column: 1/4;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section {
+    background-color: rgb(255, 217, 146);
+    margin: 30px;
+    padding: 40px;
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    color: #780606;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(45deg);
+}
+
+footer {
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    color: #780606;
+}
+

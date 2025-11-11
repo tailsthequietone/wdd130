@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(77, 14, 180);
+    margin: 8px;
+
+}
+
+header {
+    background-color: aqua;
+    height: 50px;
+    text-align: center;
+}
+
+header nav a{
+    text-decoration: none;
+}
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    border: 1px solid white;
+    display: inline-block;
+}
+ul {
+   display:inline-block;
+}

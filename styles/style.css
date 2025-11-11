@@ -1,0 +1,257 @@
+header {
+    background-color: #414770;
+    color: #EAC5D8;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 50px);
+    grid-column-gap: 0px;
+}
+.normal_hr {
+  width: 1366px;
+  height: 0px;
+  opacity: 0.3;
+  border: 1px solid #CE8964;
+}
+h1 {
+  width: 291px;
+  height: 34px;
+  color: #EAC5D8;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.28;
+  grid-column: 2/3;
+}
+.nav {
+    color: #EAC5D8;
+    font-family: "Source Sans Pro";
+    grid-column: 5/8;
+    grid-row: 1/2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #414770;
+}
+
+ul li {
+    float: right;
+}
+
+ul li a {
+    display: block;
+    color: #EAC5D8;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-color: #372248 solid;
+	width: 656px;
+	height: 60px;
+	font-family: "Source Sans Pro";
+	font-weight: 400;
+	font-size: 16px;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+body{
+    background-color: #414770;
+
+}
+h2 {
+   width: 480px;
+  height: 124px;
+  color: #EAC5D8;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.28;
+  letter-spacing: -0.5px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#below_header_text {
+  width: 347px;
+  height: 76px;
+  color: #7FBEEB;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.44;
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+#main_skills_section {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 50px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+h3 {
+  width: 388px;
+  height: 107px;
+  color: #EAC5D8;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.28;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#main_skills_paragraph_1 {
+  width: 388px;
+  height: 131px;
+  opacity: 0.8;
+  color: #56CBF9;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+#main_skills_paragraph_2 {
+  width: 388px;
+  height: 131px;
+  opacity: 0.8;
+  color: #56CBF9;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+.fox {
+  width: 430px;
+  height: 242px;
+  border-radius: 15px;
+  grid-column: 5/7;
+  grid-row: 3/4;
+}
+#quote_section {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 50px);
+}
+h4 {
+  color: #56CBF9;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.42;
+  grid-area: 1 / 3 / 3 / 7;
+
+}
+#orange1 {
+  width: 25%;
+  height: 0%;
+  border: 2px solid #F46036;
+  grid-area: 4 / 4 / 5 / 6
+
+}
+.quote_person { 
+  width: 48px;
+  height: 48px;
+  background: #F46036;
+  border-radius: 24px;
+  grid-area: 6 / 4 / 7 / 6
+  
+}
+#person_quoted {
+  opacity: 0.8;
+  color: #CE8964;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
+  grid-area: 9 / 3 / 10 / 7
+}
+#get_in_touch_section {
+
+}
+h5 {
+  width: 920px;
+  height: 46px;
+  color: #EAC5D8;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.28;
+  text-align: center;
+  vertical-align: top;
+}
+#Contact_info {
+  width: 596px;
+  height: 50px;
+  opacity: 0.8;
+  color: #56CBF9;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  text-align: center;
+  vertical-align: top;
+}
+#email {
+  width: 239px;
+  height: 42px;
+  padding: 6px 8px;
+  background: #414770;
+  border: 2px solid #171123;
+  border-radius: 3px;
+  color: #EAF27C;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+#fname {
+  width: 239px;
+  height: 42px;
+  padding: 6px 8px;
+  background: #414770;
+  border: 2px solid #171123;
+  border-radius: 3px;
+  color: #EAF27C;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+#button {
+  width: 122px;
+  height: 42px;
+  padding: 0px 10px;
+  background: #56CBF9;
+  border: 1px solid #56CBF9;
+  border-radius: 3px;
+  color: #414770;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+#bottom_nav {
+  color: #7FBEEB;
+  font-family: "Source Sans Pro";
+}
+#orange2 {
+  width: 56px;
+  height: 0px;
+  border: 2px solid #F46036;
+}
+.contact_info_2 {
+  width: 372px;
+  height: 67px;
+  color: #CE8964;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  vertical-align: top;
+}
