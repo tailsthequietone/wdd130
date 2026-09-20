@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carter Ouzts | Portfolio</title>
+    <link rel="stylesheet" href="proto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Carter Ouzts</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">IT Technician & Computer Science Student</span>
+            <h1>Building Efficient IT Systems & Scalable Software Solutions</h1>
+            <p>Passionate about system automation, network administration, hardware provisioning, and streamlined IT support.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="https://www.linkedin.com/in/carter-ouzts/" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Abilities & Skills</h2>
+            <div class="grid grid-3">
+                <div class="card">
+                    <h3>Systems & Scripting</h3>
+                    <p>Experience with Windows Task Scheduler, PowerShell scripting, system automation, dynamic configuration (JSON), and Windows Command Prompt.</p>
+                </div>
+                <div class="card">
+                    <h3>IT Support & Hardware</h3>
+                    <p>Hardware provisioning, multi-monitor configuration, Intel NUC setup, kiosk lockdown modes, asset tracking (1000+ pieces), and helpdesk troubleshooting.</p>
+                </div>
+                <div class="card">
+                    <h3>Networking & Media</h3>
+                    <p>CompTIA A+ and Network+ training background, server administration, web software maintenance, live AV routing, and event video production.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-list">
+                <div class="card exp-card">
+                    <div class="exp-header">
+                        <h3>IT Technician</h3>
+                        <span class="exp-date">August 2025 – Present</span>
+                    </div>
+                    <h4>Mungo Homes | Irmo, SC</h4>
+                    <ul>
+                        <li>Resolved 10+ helpdesk support tickets daily regarding user hardware, software, and network issues.</li>
+                        <li>Created and implemented an inventory tracking system for over 1,000 pieces of IT equipment.</li>
+                        <li>Provisioned and deployed 100+ laptops and monitors for a company-wide technical upgrade.</li>
+                        <li>Authored standard operating procedure (SOP) documentation for core IT infrastructure tasks.</li>
+                    </ul>
+                </div>
+
+                <div class="card exp-card">
+                    <div class="exp-header">
+                        <h3>AV & Web Technology Lead</h3>
+                        <span class="exp-date">May 2023 – July 2025</span>
+                    </div>
+                    <h4>California San Diego Mission | San Diego, CA</h4>
+                    <ul>
+                        <li>Managed server hosting, software deployments, and website updates across mission platforms.</li>
+                        <li>Directed live sound and video setups for events with 100+ attendees, reducing overall setup time by 50%.</li>
+                        <li>Managed, maintained, and troubleshot 50+ items of audio/video hardware.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Education Section -->
+        <section id="certifications" class="section">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Certifications & Awards</h3>
+                    <ul class="cert-list">
+                        <li><strong>CompTIA A+ Certification</strong></li>
+                        <li><strong>TestOut PC Pro Certification</strong></li>
+                        <li><strong>OSHA Certification</strong></li>
+                        <li><strong>Eagle Scout Rank</strong></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Education</h3>
+                    <p><strong>Brigham Young University - Idaho</strong></p>
+                    <p>Bachelor of Science in Computer Science</p>
+                    <p class="text-muted">GPA: 4.0</p>
+                    <br>
+                    <p><strong>Spring Hill High School</strong></p>
+                    <p>Entrepreneurial Program (Completed CompTIA A+ & Network+ Training)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-sub">Interested in working together or discussing IT solutions? Send a message below or connect with me on LinkedIn.</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="How can I help you?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/carter-ouzts/" target="_blank">LinkedIn</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p>© 2026 Carter Ouzts. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
